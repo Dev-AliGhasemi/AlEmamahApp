@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backFragHome"
+    android:id="@+id/parentScrollHome"
+    android:layoutDirection="ltr">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/fragHomeContainer">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.daimajia.slider.library.SliderLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/slider"/>
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/layout_middle_section" android:id="@+id/layoutMiddleSection"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/backSubscribe">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:textSize="@dimen/fontSizeTitle"
+                android:id="@+id/act2_textNarratorHadisBottom"
+                android:textColor="@android:color/holo_red_light"
+                android:paddingRight="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/act2_textHadisBottom"
+                android:textAlignment="inherit"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/fontSizeTitle"
+                android:layout_marginTop="10dp"
+                android:textColor="#eee"
+                android:paddingBottom="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

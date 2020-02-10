@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/navHeaderContainer"
+    android:background="@color/backHeaderNavigation"
+    android:elevation="5dp"
+    android:gravity="center">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nav_header"
+            android:adjustViewBounds="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="سیری بر زندگانی امامان"
+            android:textColor="#eee"
+            android:id="@+id/textNavHeaderUp"
+            android:textSize="@dimen/fontSizeOfTextNavigation"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/logo_alemamah"
+            android:adjustViewBounds="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="نسخه 1.0"
+            android:id="@+id/textNavHeaderDown"
+            android:textColor="#eee"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="@dimen/fontSizeOfTextNavigation"
+            android:gravity="left"
+            android:layout_marginLeft="5dp"/>
+</LinearLayout>

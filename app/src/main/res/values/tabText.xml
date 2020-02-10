@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_text">
+        <item>داستان</item>
+        <item>امامان</item>
+        <item>خانه</item>
+    </string-array>
+</resources>

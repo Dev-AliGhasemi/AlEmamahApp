@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbarContainerStyleLife">
+        <include layout="@layout/custom_toolbar"
+            android:id="@+id/toolbarStyleLife" />
+    </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backRecyclerBehavior"
+    android:layoutDirection="ltr">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/contentPane"
+        android:padding="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3"
+            android:layout_weight="1">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="styleLifeEmamClick"
+                android:tag="امام علی"
+                android:id="@+id/picEmamAli"
+                android:src="@drawable/pic_emam_ali"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/fontSizeStyleLife"
+                android:tag="امام علی"
+                android:background="@drawable/selector_style_life"
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                android:id="@+id/textEmamAli"
+                android:onClick="styleLifeEmamClick"
+                android:text="امام علی"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:tag="امام حسن مجتبی"
+                android:onClick="styleLifeEmamClick"
+                android:id="@+id/picEmamHassan"
+                android:src="@drawable/pic_baghee" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/fontSizeStyleLife"
+                android:tag="امام حسن مجتبی"
+                android:background="@drawable/selector_style_life"
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                android:id="@+id/textEmamHassan"
+                android:onClick="styleLifeEmamClick"
+                android:text="امام حسن مجتبی"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/seprator"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3"
+            android:layout_weight="1">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="styleLifeEmamClick"
+                android:tag="امام حسین"
+                android:id="@+id/picEmamHossein"
+                android:src="@drawable/pic_emam_hossein" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/fontSizeStyleLife"
+                android:tag="امام حسین"
+                android:layout_margin="10dp"
+                android:background="@drawable/selector_style_life"
+                android:textColor="#fff"
+                android:id="@+id/textEmamHossein"
+                android:onClick="styleLifeEmamClick"
+                android:text="امام حسین"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:tag="امام سجاد"
+                android:onClick="styleLifeEmamClick"
+                android:id="@+id/picEmamSajad"
+                android:src="@drawable/pic_baghee" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/fontSizeStyleLife"
+                android:layout_margin="10dp"
+                android:tag="امام سجاد"
+                android:background="@drawable/selector_style_life"
+                android:textColor="#fff"
+                android:id="@+id/textEmamSajad"
+                android:onClick="styleLifeEmamClick"
+                android:text="امام سجاد"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/seprator"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3"
+            android:layout_weight="1">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="styleLifeEmamClick"
+                android:tag="امام باقر"
+                android:id="@+id/picEmamBagher"
+                android:src="@drawable/pic_baghee" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textSize="@dimen/fontSizeStyleLife"
+                android:tag="امام باقر"
+                android:background="@drawable/selector_style_life"
+                android:textColor="#fff"
+                android:id="@+id/textEmamBagher"
+                android:onClick="styleLifeEmamClick"
+                android:text="امام باقر"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="styleLifeEmamClick"
+                android:tag="امام صادق"
+                android:id="@+id/picEmamSadegh"
+                android:src="@drawable/pic_baghee" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textSize="@dimen/fontSizeStyleLife"
+                android:tag="امام صادق"
+                android:background="@drawable/selector_style_life"
+                android:textColor="#fff"
+                android:id="@+id/textEmamSadegh"
+                android:onClick="styleLifeEmamClick"
+                android:text="امام صادق"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/seprator"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3"
+            android:layout_weight="1">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="styleLifeEmamClick"
+                android:tag="امام کاظم"
+                android:id="@+id/picEmamKazem"
+                android:src="@drawable/pic_kazamein" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textSize="@dimen/fontSizeStyleLife"
+                android:tag="امام کاظم"
+                android:background="@drawable/selector_style_life"
+                android:textColor="#fff"
+                android:id="@+id/textEmamKazem"
+                android:onClick="styleLifeEmamClick"
+                android:text="امام کاظم"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="styleLifeEmamClick"
+                android:tag="امام رضا"
+                android:id="@+id/picEmamReza"
+                android:src="@drawable/pic_emam_reza" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:tag="امام رضا"
+                android:textSize="@dimen/fontSizeStyleLife"
+                android:background="@drawable/selector_style_life"
+                android:textColor="#fff"
+                android:id="@+id/textEmamReza"
+                android:onClick="styleLifeEmamClick"
+                android:text="امام رضا"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/seprator"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3"
+            android:layout_weight="1">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="styleLifeEmamClick"
+                android:tag="امام جواد"
+                android:id="@+id/picEmamJavad"
+                android:src="@drawable/pic_kazamein" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:tag="امام جواد"
+                android:textSize="@dimen/fontSizeStyleLife"
+                android:background="@drawable/selector_style_life"
+                android:textColor="#fff"
+                android:id="@+id/textEmamJavad"
+                android:onClick="styleLifeEmamClick"
+                android:text="امام جواد"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="styleLifeEmamClick"
+                android:tag="امام هادی"
+                android:id="@+id/picEmamHadi"
+                android:src="@drawable/pic_samera" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:tag="امام هادی"
+                android:textSize="@dimen/fontSizeStyleLife"
+                android:background="@drawable/selector_style_life"
+                android:textColor="#fff"
+                android:id="@+id/textEmamHadi"
+                android:onClick="styleLifeEmamClick"
+                android:text="امام هادی"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/seprator"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3"
+            android:layout_weight="1">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="styleLifeEmamClick"
+                android:tag="امام حسن عسکری"
+                android:id="@+id/picEmamHassanAskari"
+                android:src="@drawable/pic_samera" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:tag="امام حسن عسکری"
+                android:textSize="@dimen/fontSizeStyleLife"
+                android:background="@drawable/selector_style_life"
+                android:textColor="#fff"
+                android:id="@+id/textEmamHassanAskari"
+                android:onClick="styleLifeEmamClick"
+                android:text="امام حسن عسکری"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:onClick="styleLifeEmamClick"
+                android:tag="امام مهدی"
+                android:id="@+id/picEmamMahdi"
+                android:src="@drawable/pic_emam_mahdi"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:tag="امام مهدی"
+                android:textSize="@dimen/fontSizeStyleLife"
+                android:background="@drawable/selector_style_life"
+                android:textColor="#fff"
+                android:id="@+id/textEmamMahdi"
+                android:onClick="styleLifeEmamClick"
+                android:text="امام مهدی"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

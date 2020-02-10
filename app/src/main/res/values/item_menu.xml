@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items">
+        <item>خانه</item>
+        <item>علاقه مندی ها</item>
+        <item>اشتراک گذاری</item>
+        <item>درباره ما</item>
+        <item>خروج</item>
+    </string-array>
+</resources>

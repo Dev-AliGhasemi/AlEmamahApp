@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eee">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/in_the_name"
+            android:layout_alignParentTop="true"
+            android:id="@+id/imageInTheName"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="درباره نرم افزار"
+            android:layout_below="@id/imageInTheName"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/fontSizeMiddleSection"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"
+            android:id="@+id/textTitleAboutSoftware"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textTitleAboutSoftware"
+            android:text="@string/aboutSoftware"
+            android:id="@+id/textAboutSoftware"
+            android:textSize="@dimen/fontSizeTitle"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="درباره ویرا"
+            android:textSize="@dimen/fontSizeMiddleSection"
+            android:layout_below="@id/textAboutSoftware"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/holo_red_dark"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:id="@+id/textTitleAboutSeens"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textTitleAboutSeens"
+            android:textSize="@dimen/fontSizeTitle"
+            android:text="@string/aboutUs"
+            android:textAlignment="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textStyle="bold"
+            android:id="@+id/textAboutSeens"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/textAboutSeens"
+            android:textColor="#eee"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/btnClose"
+            android:background="@drawable/corner_button"
+            android:text="خدا قوت"/>
+    </RelativeLayout>
+
+</ScrollView>

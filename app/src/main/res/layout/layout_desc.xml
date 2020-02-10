@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:transitionGroup="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/toolbarContainerDesc">
+        <include layout="@layout/custom_toolbar"
+            android:id="@+id/toolbarOfDesc"/>
+    </LinearLayout>
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolbarContainerDesc"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeContainerDesc"
+        android:background="@color/backRecyclerBehavior">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageTitleDesc"
+            android:src="@drawable/pic_desc_karbalah"
+            android:adjustViewBounds="true"
+            android:transitionName="imageTitle"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/fontSizeMiddleSection"
+            android:id="@+id/textViewTitleDesc"
+            android:background="@drawable/corner_textview_desc"
+            android:text="امام علی"
+            android:layout_alignBottom="@id/imageTitleDesc"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:paddingRight="50dp"
+            android:paddingLeft="50dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textColor="#eee"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textViewTitleDesc">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textViewDesc"
+                android:paddingTop="50dp"
+                android:textColor="#eee"
+                android:textSize="@dimen/fontSizeTitle"
+                android:gravity="right"
+                android:textAlignment="inherit"/>
+        </LinearLayout>
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

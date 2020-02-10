@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#416cb4</color>
+    <color name="backColorSplash">#003D59</color>
+    <color name="textColorSplash">#CCCCCC</color>
+    <color name="textColorMiddleSection">#025760</color>
+    <color name="backToolbar">#013D59</color>
+    <color name="backSubscribe">#114861</color>
+    <color name="backFragHome">#dfdddd</color>
+    <color name="backTabLayout">#01293d</color>
+    <color name="backPopLayout">#014666</color>
+    <color name="fontColorTextViewBehavior">#CCCCCC</color>
+    <color name="backRecyclerBehavior">#30607A</color>
+    <color name="backRecyclerSub">#144f6e</color>
+    <color name="seprator">#FF001A28</color>
+    <color name="sepratorFavorite">#024264</color>
+    <color name="backHeaderNavigation">#30607A</color>
+</resources>

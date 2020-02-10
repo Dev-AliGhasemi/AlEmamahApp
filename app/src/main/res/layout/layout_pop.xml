@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:id="@+id/popContainer">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/popImage"
+                android:adjustViewBounds="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="6"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:id="@+id/popTextDescription"
+                android:textSize="@dimen/fontSizeMiddleSection"
+                android:layout_below="@id/popImage"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:gravity="center_horizontal"
+                android:textAlignment="inherit"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/popTextDescription"
+                android:padding="6dp"
+                android:background="@drawable/circle_image"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/icon_share"
+                android:layout_marginTop="50dp"
+                android:id="@+id/popImageShare"
+                android:tint="#fff" />
+        </RelativeLayout>
+</ScrollView>

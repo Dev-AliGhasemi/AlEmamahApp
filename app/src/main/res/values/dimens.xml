@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fontSizeMiddleSection">20sp</dimen>
+    <dimen name="fontSizeTitle">18sp</dimen>
+    <dimen name="fontSizeHadis">16sp</dimen>
+    <dimen name="fontSizeStyleLife">15sp</dimen>
+    <dimen name="sizeOfActionbarLogo">20dp</dimen>
+    <dimen name="fontSizeOfTextNavigation">15sp</dimen>
+</resources>
